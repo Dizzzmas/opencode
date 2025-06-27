@@ -158,6 +158,8 @@ export namespace Provider {
                 "eu-west-3",
                 "eu-north-1",
                 "eu-central-1",
+                "eu-south-1",
+                "eu-south-2",
               ].some((r) => region.includes(r))
               const modelRequiresPrefix = [
                 "claude",
